@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "f84e82e9-c70d-4f28-a1b7-05726f864f11",
+            "Value": {
+                "id": "de79392d-9b78-408a-96b3-54ed0c4a075e",
+                "resourcePath": "objects\\oSolid\\oSolid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fd888ba8-35d8-49d9-b1d3-b64986ad213e",
             "Value": {
                 "id": "857b4744-3940-4cff-9ec9-f1cbbe6a330d",
