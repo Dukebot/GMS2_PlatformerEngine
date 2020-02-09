@@ -447,6 +447,22 @@
             }
         },
         {
+            "Key": "d287a24a-b280-46f2-b705-8a4f812bdd47",
+            "Value": {
+                "id": "1ea9e1a1-7191-4fec-9639-0216aec1e3d0",
+                "resourcePath": "sprites\\sSapphire\\sSapphire.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d2d72f45-fd3b-492a-aa45-ea346a274df6",
+            "Value": {
+                "id": "21670a9d-3b0c-41c2-bbf0-38be7889cbd5",
+                "resourcePath": "objects\\oSapphire\\oSapphire.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d7a911be-be6c-4ecf-9002-8caebc65c2c0",
             "Value": {
                 "id": "fd8549c9-bcfa-42db-b7e9-7bdffc92d9d2",
