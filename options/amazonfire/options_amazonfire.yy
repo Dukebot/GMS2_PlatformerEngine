@@ -42,7 +42,7 @@
     "option_amazonfire_target_sdk": "",
     "option_amazonfire_texture_page": "2048x2048",
     "option_amazonfire_tools_from_version": false,
-    "option_amazonfire_tv_banner": "${base_options_dir}\\android\\tv_banner.png",
+    "option_amazonfire_tv_banner": "${base_options_dir}\\amazonfire\\tv_banner.png",
     "option_amazonfire_version": {
         "build": 0,
         "major": 1,
