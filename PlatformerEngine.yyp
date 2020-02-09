@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "02dd1fd8-7e9b-4f56-8a2e-fce78d3d0d28",
+            "Value": {
+                "id": "cfdf7955-e504-4f83-84ca-87da87da56c5",
+                "resourcePath": "objects\\oEnemyParent\\oEnemyParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "04d4205c-81da-44ca-890a-aa1d275693f2",
             "Value": {
                 "id": "5738bd8e-2f5c-47b6-831a-4aa6779c2855",
@@ -519,6 +527,14 @@
             }
         },
         {
+            "Key": "bdcbf769-1894-44c7-bc4f-242351de1dd5",
+            "Value": {
+                "id": "b2909288-09cf-410d-a41f-cf6a7a079b3b",
+                "resourcePath": "sounds\\aSnake\\aSnake.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "be0a071f-c047-45ef-a762-e8d6829e795a",
             "Value": {
                 "id": "658a201f-60ce-4dc7-a3b0-299ebe3398ca",
@@ -604,6 +620,14 @@
                 "id": "7557af8a-cc90-4aa9-ba02-03f287dd8cf3",
                 "resourcePath": "sprites\\sPlayerLedgeGrab\\sPlayerLedgeGrab.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e29d91e3-afcb-4017-874d-7cdaa9cd713f",
+            "Value": {
+                "id": "ecb106cc-089a-4dc8-b900-d4f962b61875",
+                "resourcePath": "sounds\\aBat\\aBat.yy",
+                "resourceType": "GMSound"
             }
         },
         {

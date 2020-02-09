@@ -16,14 +16,14 @@ if (aboveEnemy and (falling or state == player.ledgeGrab)) {
 		y++;	
 	}
 	
-	with (other) instance_destroy();	
+	with (other) instance_destroy();
 	
 	//Bounce off the enemy
 	speedY = -16/3;
 	
 	audio_play_sound(aStep, 6, false);
 } else {
-	takeDamage();	
+	takeDamage();
 }
 
 //take damage otherwise
