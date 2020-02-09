@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "3391a39c-00a7-4c2b-ba9f-a2aedd8e2b63",
+            "Value": {
+                "id": "4070c26e-38fa-451a-868b-daf375138341",
+                "resourcePath": "sounds\\aTitle\\aTitle.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "38a1cdb6-f35c-4dda-8ed0-f52b63099b67",
             "Value": {
                 "id": "d2851d5f-12ed-468c-9ff6-8356b60ca99e",
@@ -140,6 +148,22 @@
                 "id": "c70101fe-78da-4a89-82e5-595436feb984",
                 "resourcePath": "views\\45288a97-436d-4933-a197-fe39cb698742.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "45fc6c74-d300-4fe5-9c61-dc99f87915be",
+            "Value": {
+                "id": "cef029cc-d1ae-46d7-9b6c-d9040cd3a4de",
+                "resourcePath": "views\\45fc6c74-d300-4fe5-9c61-dc99f87915be.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5cb3bbc4-8031-46a6-9980-93bf0a3d5c0a",
+            "Value": {
+                "id": "7f14e8a4-3595-4bc4-8137-1d8e1f52071b",
+                "resourcePath": "fonts\\fScore\\fScore.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -170,7 +194,7 @@
             "Key": "65bc3a3b-d73f-4325-8d5b-5094c0837db3",
             "Value": {
                 "id": "6b24cd22-cf44-43a5-8cf0-c03850a597eb",
-                "resourcePath": "objects\\oPlayerStats\\oPlayerStats.yy",
+                "resourcePath": "objects\\oGame\\oGame.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -292,6 +316,14 @@
                 "id": "25df5750-3ffe-4efe-ab8a-66d791acada1",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ace2aee2-afe8-4678-8f7e-fc329cef4781",
+            "Value": {
+                "id": "d982bff0-2133-4bb0-b24e-1051059beac6",
+                "resourcePath": "sounds\\aCave\\aCave.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -452,6 +484,14 @@
                 "id": "90ebf822-57d9-4eba-a916-1264f57973fa",
                 "resourcePath": "scripts\\applyFriction\\applyFriction.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f3152e51-2a86-4f69-8080-7640690f0ed3",
+            "Value": {
+                "id": "47f3d491-83d3-42d8-91b7-72b581b6763d",
+                "resourcePath": "sprites\\sHeart\\sHeart.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

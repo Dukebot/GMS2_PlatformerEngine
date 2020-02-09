@@ -36,4 +36,13 @@ if (room == rTitle) {
 } 
 else if (room != rTitle) {
 	
+	//Draw Health
+	for (var i = 1; i <= hp; ++i) {
+		draw_sprite_ext(sHeart, 0, i*25 - 10, 15, 1, 1, 0, c_white, 1);	
+	}
+	
+	//Draw score
+	draw_set_font(fScore);
+	draw_set_halign(fa_left);
+	draw_text(5, 25, "Score: " + string(sapphires));
 }

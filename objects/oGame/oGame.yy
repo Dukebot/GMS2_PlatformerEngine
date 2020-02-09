@@ -2,7 +2,7 @@
     "id": "65bc3a3b-d73f-4325-8d5b-5094c0837db3",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oPlayerStats",
+    "name": "oGame",
     "eventList": [
         {
             "id": "b817696e-f029-42bb-a938-cfd234bb97ee",
