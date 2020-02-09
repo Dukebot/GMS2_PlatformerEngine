@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "2a6b27ed-308e-46b2-a941-a82962879b57",
+            "Value": {
+                "id": "2e1f7957-91cd-4f8d-b072-15a0d7208c79",
+                "resourcePath": "scripts\\deathState\\deathState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2fa4fa9b-1b53-42cd-b07f-56d1e3c0f914",
             "Value": {
                 "id": "645c874e-364e-45ef-98bf-fe46b9e8bceb",
@@ -147,6 +155,14 @@
             "Value": {
                 "id": "4070c26e-38fa-451a-868b-daf375138341",
                 "resourcePath": "sounds\\aTitle\\aTitle.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "35d45c88-ee7b-4913-a12d-16ea32c150f8",
+            "Value": {
+                "id": "d05de9e6-8031-4277-966a-44ab49d6b54e",
+                "resourcePath": "sounds\\aOuch\\aOuch.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -351,6 +367,14 @@
             }
         },
         {
+            "Key": "98d2c973-965e-4475-acf0-d1afe74633ba",
+            "Value": {
+                "id": "53b27c0d-a468-421e-86f3-b06b4bd1b566",
+                "resourcePath": "scripts\\hurtState\\hurtState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9efe0c02-4ac4-4ffe-941e-2cf1b4b6801c",
             "Value": {
                 "id": "e77903e0-07ea-4421-8972-b2ef902a9c93",
@@ -372,6 +396,14 @@
                 "id": "ebc37183-4624-4589-a625-0d5d45df664e",
                 "resourcePath": "views\\a784814f-eaaa-4d31-8a0c-ab61e5783fcf.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a7e36d38-81ec-483b-8f90-0ab2b52ffb70",
+            "Value": {
+                "id": "f3b534c9-2895-4dc0-bf63-0c5532bd08d3",
+                "resourcePath": "scripts\\directionMoveBounce\\directionMoveBounce.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -508,6 +540,14 @@
                 "id": "987f38fe-e11d-43ca-bf49-e8211f715ba7",
                 "resourcePath": "tilesets\\tDirt\\tDirt.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "da5fbb62-af4c-4447-8057-a0190406da51",
+            "Value": {
+                "id": "630af53a-ff09-4975-a3a2-aa4302b7c2f3",
+                "resourcePath": "scripts\\takeDamage\\takeDamage.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -652,8 +692,12 @@
         "9005f352-0a6c-4a97-9b36-3b5d6efd34ed",
         "e48e3c79-1c11-4c88-8efb-20878fe165f9",
         "04d4205c-81da-44ca-890a-aa1d275693f2",
+        "98d2c973-965e-4475-acf0-d1afe74633ba",
+        "2a6b27ed-308e-46b2-a941-a82962879b57",
         "f0ab0664-ce28-4880-a3f6-d7e29b4981f7",
         "1e5c84ec-0a97-4496-a844-617fcbe9a89e",
+        "a7e36d38-81ec-483b-8f90-0ab2b52ffb70",
+        "da5fbb62-af4c-4447-8057-a0190406da51",
         "83f63b08-7b08-40d5-8999-e9094fcbb1a1",
         "be0a071f-c047-45ef-a762-e8d6829e795a",
         "b8b2287f-b1e8-41ce-bcc2-d11630325229"

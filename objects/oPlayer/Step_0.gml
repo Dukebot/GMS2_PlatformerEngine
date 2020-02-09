@@ -13,7 +13,9 @@ switch (state) {
 		doorState();
 		break;
 	case player.hurt:
+		hurtState();
 		break;
 	case player.death:
+		deathState();
 		break;
 }
