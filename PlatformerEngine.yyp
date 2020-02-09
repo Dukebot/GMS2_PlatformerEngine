@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "30c917e4-eda5-4b56-9ce2-0e8caade8272",
+            "Value": {
+                "id": "69190b2d-5059-4ac7-87fb-1779821c6f06",
+                "resourcePath": "sprites\\sBatIdle\\sBatIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3391a39c-00a7-4c2b-ba9f-a2aedd8e2b63",
             "Value": {
                 "id": "4070c26e-38fa-451a-868b-daf375138341",
@@ -228,6 +236,14 @@
                 "id": "524de771-de34-4d2f-823e-261f1e9ac06f",
                 "resourcePath": "rooms\\rTwo\\rTwo.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "628d93f8-00dd-4d24-a1d0-4935f037a211",
+            "Value": {
+                "id": "819136ea-cedf-48c3-b34c-218beffd7881",
+                "resourcePath": "objects\\oBat\\oBat.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -396,6 +412,14 @@
                 "id": "53b27c0d-a468-421e-86f3-b06b4bd1b566",
                 "resourcePath": "scripts\\hurtState\\hurtState.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "99ad5953-d5ca-4a2a-820a-210418ec6f65",
+            "Value": {
+                "id": "6870e6ec-2f8c-4281-a617-e40503c9d230",
+                "resourcePath": "sprites\\sBatFly\\sBatFly.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
