@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "40384b65-572b-4198-abef-ce1a0acd8dc1",
+            "Value": {
+                "id": "ceb47197-d2d8-42f0-9bce-a9472026db0c",
+                "resourcePath": "rooms\\rTwo\\rTwo.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "45288a97-436d-4933-a197-fe39cb698742",
             "Value": {
                 "id": "c70101fe-78da-4a89-82e5-595436feb984",
@@ -252,14 +260,6 @@
                 "id": "7f14e8a4-3595-4bc4-8137-1d8e1f52071b",
                 "resourcePath": "fonts\\fScore\\fScore.yy",
                 "resourceType": "GMFont"
-            }
-        },
-        {
-            "Key": "5d529ee5-e4de-4298-8dab-59c8dabb6398",
-            "Value": {
-                "id": "524de771-de34-4d2f-823e-261f1e9ac06f",
-                "resourcePath": "rooms\\rTwo\\rTwo.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -535,14 +535,6 @@
             }
         },
         {
-            "Key": "b2d87113-a1b5-429a-b7a1-d063468dd055",
-            "Value": {
-                "id": "e7f86e11-324a-4af8-aab5-7b915409c0fa",
-                "resourcePath": "rooms\\rBoss\\rBoss.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "b8b2287f-b1e8-41ce-bcc2-d11630325229",
             "Value": {
                 "id": "666dcba2-fc28-4c10-b463-c5304b22a1ca",
@@ -612,6 +604,14 @@
                 "id": "21670a9d-3b0c-41c2-bbf0-38be7889cbd5",
                 "resourcePath": "objects\\oSapphire\\oSapphire.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d4c9337a-8889-432a-9952-23a981f3f839",
+            "Value": {
+                "id": "c543d884-c98a-4c25-b205-a7561858845f",
+                "resourcePath": "rooms\\rTemplate\\rTemplate.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -700,6 +700,14 @@
                 "id": "ca9b8ee0-3f5b-4503-8e74-6e10cf450858",
                 "resourcePath": "views\\ed68a74e-51d5-4102-b7dd-2ee93d3ec884.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "eebcffb5-6ae5-4b6d-8bb2-99bf8f266846",
+            "Value": {
+                "id": "cf9c8152-bab6-4ad2-8f8b-3044b2136e35",
+                "resourcePath": "rooms\\rBoss\\rBoss.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
