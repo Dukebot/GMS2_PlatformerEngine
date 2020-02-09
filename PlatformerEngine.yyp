@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "1e5c84ec-0a97-4496-a844-617fcbe9a89e",
+            "Value": {
+                "id": "ff61cc23-ff83-4377-b9bb-6dbd23c8cef6",
+                "resourcePath": "scripts\\move\\move.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1fcedb4c-dd49-465b-94c6-2701cbc08c5b",
             "Value": {
                 "id": "a38971ad-9344-47ed-b0d9-ea1f6e599e01",
@@ -167,6 +175,14 @@
             }
         },
         {
+            "Key": "9005f352-0a6c-4a97-9b36-3b5d6efd34ed",
+            "Value": {
+                "id": "b1347773-922e-4cbf-8ffc-591e56cd38a2",
+                "resourcePath": "scripts\\moveState\\moveState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
             "Value": {
                 "id": "f18e1fca-b841-4bc1-9596-54e9697f94be",
@@ -188,6 +204,14 @@
                 "id": "25df5750-3ffe-4efe-ab8a-66d791acada1",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b0940703-adb1-47a1-a8ca-5e9edbae3d9e",
+            "Value": {
+                "id": "bfdf96be-4287-4ff5-9c17-6f40717b8970",
+                "resourcePath": "scripts\\getInput\\getInput.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -263,11 +287,27 @@
             }
         },
         {
+            "Key": "ed68a74e-51d5-4102-b7dd-2ee93d3ec884",
+            "Value": {
+                "id": "ca9b8ee0-3f5b-4503-8e74-6e10cf450858",
+                "resourcePath": "views\\ed68a74e-51d5-4102-b7dd-2ee93d3ec884.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f0797ca9-88de-4316-b44b-a2bfe8c09c30",
             "Value": {
                 "id": "0787cf94-bd74-4b4a-a1ab-ae7e725462aa",
                 "resourcePath": "views\\f0797ca9-88de-4316-b44b-a2bfe8c09c30.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f0ab0664-ce28-4880-a3f6-d7e29b4981f7",
+            "Value": {
+                "id": "90ebf822-57d9-4eba-a916-1264f57973fa",
+                "resourcePath": "scripts\\applyFriction\\applyFriction.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -296,7 +336,10 @@
         }
     ],
     "script_order": [
-        
+        "b0940703-adb1-47a1-a8ca-5e9edbae3d9e",
+        "9005f352-0a6c-4a97-9b36-3b5d6efd34ed",
+        "f0ab0664-ce28-4880-a3f6-d7e29b4981f7",
+        "1e5c84ec-0a97-4496-a844-617fcbe9a89e"
     ],
     "tutorial": ""
 }
