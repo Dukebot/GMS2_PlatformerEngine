@@ -8,8 +8,20 @@ if (speedX == 0) {
 //Check if player is on the ground
 if (not place_meeting(x, y+1, oSolid)) {
 	speedY += gravityAcceleration;
+	
+	//Player is in the air
+	sprite_index = sPlayerJump;
+	image_index = (speedY > 0);
+	
+	//Control the jump height
+	if (upRelease and speedY < -6) {
+		speedY = -3;	
+	}
 } else {
 	speedY = 0;	
+	
+	//Jumping code
+	if (up) speedY = jumpHeight;
 }
 
 //Change direction of the sprite
