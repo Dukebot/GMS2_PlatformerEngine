@@ -1,5 +1,5 @@
 if (down) {
-	state = player.moving;	
+	state = player.moving;
 }
 
 if (up) {
