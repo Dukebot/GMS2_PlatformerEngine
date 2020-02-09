@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "76efbdce-239d-4a50-b775-48c967ec3517",
+            "Value": {
+                "id": "0cdf345d-c117-40ca-8340-da9c680adc89",
+                "resourcePath": "sprites\\sSolid\\sSolid.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7bcea9e4-aafc-42d4-afc7-5f0bf60a6380",
             "Value": {
                 "id": "be306eb0-0674-4983-aeb8-d47cd865a087",
