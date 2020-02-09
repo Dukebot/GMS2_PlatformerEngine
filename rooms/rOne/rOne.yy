@@ -1,6 +1,6 @@
 
 {
-    "name": "room0",
+    "name": "rOne",
     "id": "62b31e7d-318f-4e05-828a-1503fc1c8788",
     "creationCodeFile": "",
     "inheritCode": false,
@@ -123,7 +123,7 @@
     ],
     "viewSettings":     {
         "id": "7f90a663-faa9-45c0-b418-cb358d2b167d",
-        "clearDisplayBuffer": false,
+        "clearDisplayBuffer": true,
         "clearViewBackground": true,
         "enableViews": true,
         "inheritViewSettings": false,
