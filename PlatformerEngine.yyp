@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "2227cdb8-7d41-4db1-9b50-2aaf573ac22c",
+            "Value": {
+                "id": "9e089ae2-ebf6-4bc8-a4a6-57da73123480",
+                "resourcePath": "fonts\\fStart\\fStart.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "22327eda-2c48-4d55-b286-ed0118c4a60a",
             "Value": {
                 "id": "c6a5b0d7-1e10-4897-9196-33609a0b9912",
@@ -279,6 +287,22 @@
             }
         },
         {
+            "Key": "b8b2287f-b1e8-41ce-bcc2-d11630325229",
+            "Value": {
+                "id": "666dcba2-fc28-4c10-b463-c5304b22a1ca",
+                "resourcePath": "scripts\\getCameraHeight\\getCameraHeight.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "be0a071f-c047-45ef-a762-e8d6829e795a",
+            "Value": {
+                "id": "658a201f-60ce-4dc7-a3b0-299ebe3398ca",
+                "resourcePath": "scripts\\getCameraWidth\\getCameraWidth.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cbf2f6c4-099f-4f18-8430-de5a939c6d93",
             "Value": {
                 "id": "a18cc551-5dc5-4990-ac11-f0c6eab668b9",
@@ -429,6 +453,14 @@
                 "resourcePath": "sprites\\sPlayerIdle\\sPlayerIdle.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "ffc3b6e1-208a-499a-ad8e-dc608c862c2d",
+            "Value": {
+                "id": "d11b5ca6-4ccc-44f9-af58-b049433c6e3f",
+                "resourcePath": "fonts\\fTitle\\fTitle.yy",
+                "resourceType": "GMFont"
+            }
         }
     ],
     "script_order": [
@@ -437,7 +469,9 @@
         "e48e3c79-1c11-4c88-8efb-20878fe165f9",
         "f0ab0664-ce28-4880-a3f6-d7e29b4981f7",
         "1e5c84ec-0a97-4496-a844-617fcbe9a89e",
-        "83f63b08-7b08-40d5-8999-e9094fcbb1a1"
+        "83f63b08-7b08-40d5-8999-e9094fcbb1a1",
+        "be0a071f-c047-45ef-a762-e8d6829e795a",
+        "b8b2287f-b1e8-41ce-bcc2-d11630325229"
     ],
     "tutorial": ""
 }
