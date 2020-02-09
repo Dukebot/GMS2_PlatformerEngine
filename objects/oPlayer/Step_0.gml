@@ -7,6 +7,7 @@ switch (state) {
 		moveState();
 		break;
 	case player.ledgeGrab:
+		ledgeGrabState();
 		break;
 	case player.door:
 		break;

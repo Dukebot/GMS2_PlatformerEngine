@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0053e5ec-0e01-4de1-a6e8-af7975b362c0",
+            "Value": {
+                "id": "34f745f1-19d9-4663-9635-e6a91eb82482",
+                "resourcePath": "sounds\\aJump\\aJump.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0dbb48c0-3139-4c1b-aae9-1a398b23b360",
             "Value": {
                 "id": "805cb074-1628-4167-9015-1b83f4f4d9c6",
@@ -43,6 +51,14 @@
             "Value": {
                 "id": "dd843030-89db-4b7a-8f49-7547af62eaa0",
                 "resourcePath": "views\\1e0d546c-10a5-473e-8aff-eb8dbb27d19c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1e2b5c31-99a1-4bfe-89a1-961c823d22b6",
+            "Value": {
+                "id": "4e1db068-973f-4a88-bc00-6ada7b003241",
+                "resourcePath": "views\\1e2b5c31-99a1-4bfe-89a1-961c823d22b6.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -167,6 +183,22 @@
             }
         },
         {
+            "Key": "837eaaeb-51ab-4e6c-92f6-f4677bd5be95",
+            "Value": {
+                "id": "711e82e6-1db9-4872-9f71-dd525e3fb493",
+                "resourcePath": "sounds\\aStep\\aStep.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "83f63b08-7b08-40d5-8999-e9094fcbb1a1",
+            "Value": {
+                "id": "746e7d6b-bb91-46cf-84c7-67522fd3d4c9",
+                "resourcePath": "scripts\\isFalling\\isFalling.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
                 "id": "f15816f0-fd0e-4c4b-a444-4f9bfe21bfbd",
@@ -279,6 +311,14 @@
             }
         },
         {
+            "Key": "e48e3c79-1c11-4c88-8efb-20878fe165f9",
+            "Value": {
+                "id": "f7dedca3-a8ba-4298-b27d-49722cd98694",
+                "resourcePath": "scripts\\ledgeGrabState\\ledgeGrabState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ea4ee49c-fcd9-4183-9b3d-eb4a662c6288",
             "Value": {
                 "id": "a20eb6c5-1d90-4651-8775-d4ddf9b8ffc5",
@@ -354,8 +394,10 @@
     "script_order": [
         "b0940703-adb1-47a1-a8ca-5e9edbae3d9e",
         "9005f352-0a6c-4a97-9b36-3b5d6efd34ed",
+        "e48e3c79-1c11-4c88-8efb-20878fe165f9",
         "f0ab0664-ce28-4880-a3f6-d7e29b4981f7",
-        "1e5c84ec-0a97-4496-a844-617fcbe9a89e"
+        "1e5c84ec-0a97-4496-a844-617fcbe9a89e",
+        "83f63b08-7b08-40d5-8999-e9094fcbb1a1"
     ],
     "tutorial": ""
 }
