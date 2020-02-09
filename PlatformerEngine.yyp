@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0e68cd18-39f0-4c63-96b7-96386b5922b4",
+            "Value": {
+                "id": "f389d589-6a35-42f7-af66-e36ebe3250d2",
+                "resourcePath": "objects\\oSpider\\oSpider.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0f5ecb06-6168-4d14-9c3a-3f4b3b109bf9",
             "Value": {
                 "id": "dc87bf94-5474-4b92-a346-bf0ee5ebe730",
@@ -132,6 +140,14 @@
                 "id": "c6a5b0d7-1e10-4897-9196-33609a0b9912",
                 "resourcePath": "views\\22327eda-2c48-4d55-b286-ed0118c4a60a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "240a15b4-8f95-49b8-a8e4-0e7477426690",
+            "Value": {
+                "id": "7b39edf9-cbb2-4d3f-a543-61c68e669d95",
+                "resourcePath": "sprites\\sSpider\\sSpider.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -380,6 +396,14 @@
                 "id": "b1347773-922e-4cbf-8ffc-591e56cd38a2",
                 "resourcePath": "scripts\\moveState\\moveState.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "90bdb6b6-cd1c-4c16-84e9-4da11c940524",
+            "Value": {
+                "id": "19c70466-5c1d-4206-95ae-b6a615f8b19a",
+                "resourcePath": "sounds\\aSpider\\aSpider.yy",
+                "resourceType": "GMSound"
             }
         },
         {
