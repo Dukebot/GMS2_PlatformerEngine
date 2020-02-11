@@ -10,6 +10,8 @@ gravityAcceleration = 0.5;
 jumpHeight = -9;
 grabWidth = 18;
 
+godModeTimer = -1;
+
 enum player {
 	moving,
 	ledgeGrab,

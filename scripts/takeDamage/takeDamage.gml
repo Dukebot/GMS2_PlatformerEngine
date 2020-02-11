@@ -1,6 +1,6 @@
 ///@description take_damage
 
-if (state != player.hurt) {
+if (state != player.hurt and godModeTimer < 0) {
 	state = player.hurt;
 	
 	//Play the hurt sound

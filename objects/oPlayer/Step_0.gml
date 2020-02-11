@@ -2,6 +2,9 @@
 
 getInput();
 
+if (godModeTimer >= 0) godModeTimer--;
+
+
 switch (state) {
 	case player.moving:
 		moveState();
