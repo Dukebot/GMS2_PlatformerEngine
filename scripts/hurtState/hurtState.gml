@@ -13,6 +13,8 @@ if (not place_meeting(x, y+1, oSolid)) {
 }
 directionMoveBounce(oSolid); 
 
+//Here can be an infinite loop with lava where we never exit the hurt state
+
 //Change back to other states
 if (speedX == 0 and speedY == 0) {
 	
