@@ -30,6 +30,9 @@ if (not place_meeting(x, y+1, oSolid)) {
 //Change direction of the sprite
 if (speedX != 0) {
 	image_xscale = sign(speedX);
+} else {
+	if (right) image_xscale = 1;
+	if (left) image_xscale = -1;
 }
 
 //Check for moving left or right

@@ -10,8 +10,8 @@ if (state != player.hurt and godModeTimer < 0) {
 	image_blend = make_colour_rgb(220, 150, 150);
 	
 	//Knockback
-	var knockbackY = 6;
-	var knockbackX = 8;
+	var knockbackY = 5;
+	var knockbackX = 5;
 	speedY = -knockbackY;
 	speedX = (sign(x - other.x) * knockbackX);
 	move(oSolid);
