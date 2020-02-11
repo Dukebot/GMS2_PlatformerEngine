@@ -11,6 +11,7 @@ jumpHeight = -9;
 grabWidth = 18;
 
 godModeTimer = -1;
+imageAlphaInc = 0.2;
 
 enum player {
 	moving,

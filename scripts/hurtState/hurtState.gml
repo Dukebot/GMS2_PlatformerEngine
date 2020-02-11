@@ -18,6 +18,8 @@ directionMoveBounce(oSolid);
 //Change back to other states
 if (speedX == 0 and speedY == 0) {
 	
+	godModeTimer = 60;
+	
 	//Check health
 	if (oGame.hp <= 0) {
 		state = player.death;
