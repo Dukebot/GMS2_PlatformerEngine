@@ -14,10 +14,10 @@ speedX = 0;
 speedY = 0;
 
 //Increase accel to remove the BUG
-acceleration = 0.1;
-gravityAcceleration = 0.5;
+acceleration = 0.25;
+gravityAcceleration = 0.4;
 
-jumpHeight = -9;
+jumpHeight = -8;
 grabWidth = 18;
 
 godModeTimer = -1;
