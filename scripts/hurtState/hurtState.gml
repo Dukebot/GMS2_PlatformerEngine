@@ -18,13 +18,16 @@ directionMoveBounce(oSolid);
 //Change back to other states
 if (speedX == 0 and speedY == 0) {
 	
+	//1 second of invincibility when hurt state ends
 	godModeTimer = 60;
 	
-	//Check health
+	//Check if player died
 	if (oGame.hp <= 0) {
+		//Transition to death state
 		state = player.death;
 	} else {
+		//Transition to moving state
 		state = player.moving;
-		image_blend = c_white;	
+		image_blend = c_white;
 	}
 }
