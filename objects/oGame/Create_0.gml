@@ -1,5 +1,6 @@
 /// @description Init variables
 
+//Player Data
 maxHp = 3;
 hp = maxHp;
 sapphires = 0;
