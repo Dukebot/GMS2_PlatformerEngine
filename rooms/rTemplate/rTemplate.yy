@@ -296,7 +296,7 @@
         "id": "46c04643-9041-4fdf-87ad-e604dee2f4f5",
         "clearDisplayBuffer": true,
         "clearViewBackground": true,
-        "enableViews": true,
+        "enableViews": false,
         "inheritViewSettings": false,
         "modelName": "GMRoomViewSettings",
         "mvc": "1.0"

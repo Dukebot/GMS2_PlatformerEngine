@@ -26,6 +26,7 @@ imageAlphaInc = 0.2;
 enum player {
 	moving,
 	ledgeGrab,
+	attack,
 	door,
 	hurt,
 	death

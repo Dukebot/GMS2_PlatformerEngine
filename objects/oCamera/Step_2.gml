@@ -1,7 +1,7 @@
 /// @description Insert description here
 
-//we use end step event because we want the camera to follow 
-//the object after it's position has been updated in step event
+/*We use end step event because we want the camera to follow 
+the object after it's position has been updated in step event.*/
 
 #macro view view_camera[0]
 
