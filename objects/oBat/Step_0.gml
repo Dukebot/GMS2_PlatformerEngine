@@ -28,4 +28,8 @@ switch (state) {
 			move(oSolid);
 		}
 		break;
+		
+	case bat.hurt:
+		
+		break;
 }

@@ -11,4 +11,6 @@ enum snake {
 speedX = 1;
 speedY = 0;
 
+hp = 3;
+
 state = choose(snake.moveRight, snake.moveLeft);

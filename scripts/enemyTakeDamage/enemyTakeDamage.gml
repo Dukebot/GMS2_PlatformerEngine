@@ -1,7 +1,18 @@
 ///@description enemy_take_damage
 
-if (state != snake.hurt) {
-	state = snake.hurt;
+var State = 0;
+if (object_index == oSnake) {
+	State = snake.hurt;
+} else if (object_index == oBat) {
+	State = bat.hurt;
+} else if (object_index == oSpider) {
+	State = spider.hurt;
+}
+
+show_debug_message(string(State));
+
+if (State != 0 and state != State) { 
+	state = State;
 	
 	//Play the hurt sound
 	audio_play_sound(aOuch, 8, false);
@@ -16,6 +27,8 @@ if (state != snake.hurt) {
 	speedX = (sign(x - other.x) * knockbackX);
 	move(oSolid);
 	
-	//Substract HP
-	//if (instance_exists(oGame)) oGame.hp--;
+	hp--;
+	if (hp <= 0) instance_destroy();
 }
+
+

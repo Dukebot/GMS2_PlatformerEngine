@@ -15,9 +15,7 @@ directionMoveBounce(oSolid);
 
 //Change back to other states
 if (speedX == 0 and speedY == 0) {
-	if (image_xscale < 0) state = snake.moveLeft;
-	if (image_xscale > 0) state = snake.moveRight;
-	
 	image_blend = c_white;
-	speedX = 1;
+	
+	enemyHurtStateExit();
 }
