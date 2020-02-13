@@ -15,7 +15,7 @@ speedY = 0;
 
 //Increase accel to remove the BUG
 acceleration = 0.25;
-gravityAcceleration = 0.4;
+gravityAcceleration = global.Gravity;
 
 jumpHeight = -8;
 grabWidth = 18;

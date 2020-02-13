@@ -1,0 +1,3 @@
+//state = snake.hurt;
+
+enemyTakeDamage();

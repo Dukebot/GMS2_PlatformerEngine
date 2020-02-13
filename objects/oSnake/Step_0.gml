@@ -11,7 +11,7 @@ switch (state) {
 		}
 		
 		image_xscale = 1;
-		x += 1;
+		x += speedX;
 		break;
 	case snake.moveLeft:
 		var wallAtLeft = place_meeting(x-1, y, oSolid);
@@ -22,6 +22,8 @@ switch (state) {
 		}
 		
 		image_xscale = -1;
-		x -= 1;
+		x -= speedX;
 		break;
+	case snake.hurt:
+		enemyHurtState();
 }
