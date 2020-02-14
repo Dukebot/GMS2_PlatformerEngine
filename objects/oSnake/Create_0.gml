@@ -1,5 +1,4 @@
 /// @description Init snake
-
 event_inherited();
 
 speedX = choose(-1, 1);

@@ -3,7 +3,7 @@ if (speedX != 0) {
 	image_xscale = sign(speedX);	
 }
 
-if (not isOnGround(oSolid)) {
+if (not isOnGround(oSolid)) { 
 	speedY += gravityAcceleration;	
 } else {
 	speedY = 0;

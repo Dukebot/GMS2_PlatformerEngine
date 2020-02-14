@@ -13,10 +13,4 @@ gravityAcceleration = 0.5;
 
 hp = 2;
 
-enum spider {
-	idle,
-	jump,
-	hurt
-}
-
-state = spider.idle;
+state = enemy.idle;

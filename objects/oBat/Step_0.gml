@@ -6,14 +6,11 @@ if (state == enemy.idle) {
 	if (instance_exists(oPlayer)) {
 		var distance = point_distance(x, y, oPlayer.x, oPlayer.y);
 		if (distance < sight) {
-			state = enemy.attack;	
+			state = enemy.chase;	
 		}
 	}
 }
-else if (state == enemy.moving) {
-	state = enemy.attack;
-}
-else if (state == enemy.attack) {
+else if (state == enemy.chase) {
 	if (instance_exists(oPlayer)) {
 		var dir = point_direction(x, y, oPlayer.x, oPlayer.y);
 			
@@ -30,5 +27,22 @@ else if (state == enemy.attack) {
 	}
 }
 else if (state == enemy.hurt) {
-	enemyHurtState();
+	if (speedX != 0) {
+		image_xscale = sign(speedX);	
+	}
+
+	if (not isOnGround(oSolid)) { 
+		speedY += gravityAcceleration;	
+	} else {
+		speedY = 0;
+		applyFriction(acceleration);
+	}
+	directionMoveBounce(oSolid); 
+
+	//Change back to other states
+	if (speedX == 0 and speedY == 0) {
+		image_blend = c_white;
+	
+		state = enemy.chase;
+	}
 }

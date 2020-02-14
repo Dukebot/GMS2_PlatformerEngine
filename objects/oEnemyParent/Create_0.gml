@@ -7,5 +7,7 @@ enum enemy {
 	idle,
 	moving,
 	attack,
+	chase,
+	jump,
 	hurt
 }
