@@ -1,3 +1,5 @@
+//Old code
+
 if (object_index == oSnake) {
 	if (image_xscale < 0) state = snake.moveLeft;
 	if (image_xscale > 0) state = snake.moveRight;

@@ -1,6 +1,6 @@
 setPlayerSprite();
 
-if (not isOnGround()) {	
+if (not isOnGround(oSolid)) {	
 	speedY += gravityAcceleration;
 	
 	//Control the jump height

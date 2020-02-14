@@ -3,26 +3,25 @@
 getInput();
 godModeTimerLogic();
 
-switch (state) {
-	case player.moving:
-		moveState();
-		if (spacePressed) {
-			instance_create_layer(x+32*image_xscale, y, "Instances", oPlayerAttackHitBox);
-		}
-		break;
-	case player.ledgeGrab:
-		ledgeGrabState();
-		break;
-	/*case player.attack:
-		attackState();
-		break;*/
-	case player.door:
-		doorState();
-		break;
-	case player.hurt:
-		hurtState();
-		break;
-	case player.death:
-		deathState();
-		break;
+if (state == player.moving) {
+	moveState();
+	if (spacePressed) {
+		instance_create_layer(x+32*image_xscale, y, "Instances", oPlayerAttackHitBox);
+	}
+	if (enterPressed) {
+		instanceCreate(oPlayerShoot, x, y);
+	}
 }
+else if (state == player.ledgeGrab) {
+	ledgeGrabState();
+}
+else if (state == player.door) {
+	doorState();
+}
+else if (state == player.hurt) {
+	hurtState();
+}
+else if (state == player.death) {
+	deathState();
+}
+

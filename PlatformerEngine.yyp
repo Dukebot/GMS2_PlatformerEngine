@@ -215,11 +215,27 @@
             }
         },
         {
+            "Key": "2d80e582-adba-4d7d-a12d-398e9215875c",
+            "Value": {
+                "id": "d41e85b0-014a-49c2-b5b9-a30a5dd07659",
+                "resourcePath": "scripts\\createParticles\\createParticles.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2fa4fa9b-1b53-42cd-b07f-56d1e3c0f914",
             "Value": {
                 "id": "645c874e-364e-45ef-98bf-fe46b9e8bceb",
                 "resourcePath": "sprites\\sPlayerWalk\\sPlayerWalk.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "30230ceb-54b6-48a5-aef4-100332254750",
+            "Value": {
+                "id": "d52836dd-347a-4c35-bd40-3a68302d2ebc",
+                "resourcePath": "scripts\\setScale\\setScale.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -404,6 +420,14 @@
                 "id": "a1b53d47-1469-476a-80fa-ff0dd4306281",
                 "resourcePath": "options\\html5\\options_html5.yy",
                 "resourceType": "GMHtml5Options"
+            }
+        },
+        {
+            "Key": "75b7d992-89a5-4d39-8034-96a2b074f315",
+            "Value": {
+                "id": "447f0c5d-4ce4-406c-a632-35193b061cd6",
+                "resourcePath": "objects\\oPlayerShoot\\oPlayerShoot.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -703,6 +727,14 @@
             }
         },
         {
+            "Key": "ccd2bbf8-8b53-4875-843f-aefe16efce99",
+            "Value": {
+                "id": "3c0a5d60-d7df-45e0-adc5-e7ff826f0abe",
+                "resourcePath": "scripts\\instanceCreate\\instanceCreate.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cef6d0c4-a296-4cf1-a3c8-00d5228028f8",
             "Value": {
                 "id": "1ca13935-ab89-4168-a4a9-3a5fbc2cb742",
@@ -961,6 +993,7 @@
     ],
     "script_order": [
         "eaf6b455-c4a9-4a26-adea-c13dea27f819",
+        "2d80e582-adba-4d7d-a12d-398e9215875c",
         "b0940703-adb1-47a1-a8ca-5e9edbae3d9e",
         "9005f352-0a6c-4a97-9b36-3b5d6efd34ed",
         "e48e3c79-1c11-4c88-8efb-20878fe165f9",
@@ -985,7 +1018,9 @@
         "606e6408-4d4b-4b1f-991e-030e0eb7c14b",
         "e966bbd0-27c2-454b-ac88-5b921251cc22",
         "2cb14a29-f9aa-4211-8407-413b2bab01f8",
-        "041a7cbd-a42d-43a5-9ab9-5c243147bc84"
+        "041a7cbd-a42d-43a5-9ab9-5c243147bc84",
+        "30230ceb-54b6-48a5-aef4-100332254750",
+        "ccd2bbf8-8b53-4875-843f-aefe16efce99"
     ],
     "tutorial": ""
 }

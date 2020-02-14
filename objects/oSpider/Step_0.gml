@@ -38,4 +38,7 @@ switch (state) {
 		
 		move(oSolid);
 		break;
+	case spider.hurt:
+		enemyHurtState();
+		break;
 }

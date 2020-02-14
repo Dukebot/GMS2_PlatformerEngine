@@ -5,5 +5,6 @@ up = keyboard_check(vk_up);
 down = keyboard_check(vk_down);
 
 spacePressed = keyboard_check_pressed(vk_space);
+enterPressed = keyboard_check_pressed(vk_enter);
 
 upRelease = keyboard_check_released(vk_up);

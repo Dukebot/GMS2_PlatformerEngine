@@ -6,7 +6,7 @@ if (speedX == 0) {
 }
 
 //If player is on the Air
-if (not isOnGround()) {
+if (not isOnGround(oSolid)) {
 	//Set the sprite for jump
 	sprite_index = sPlayerJump;
 	image_index = (speedY > 0);
