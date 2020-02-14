@@ -1,8 +1,8 @@
 {
-    "id": "7c443475-012a-449d-8646-e40a624dab4c",
+    "id": "a083b776-279e-4338-bfdd-486e3c05fe7e",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "wallAt",
+    "name": "isLedgeAtRight",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "39c3b575-b92f-41f5-a1af-d6dc0d682756",
+            "Value": {
+                "id": "b86f09b8-5d14-40d1-9a07-55d7b47ef7b4",
+                "resourcePath": "scripts\\isWallAtLeft\\isWallAtLeft.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3f286dba-3f84-4cca-9621-88b3d6b9c5c1",
             "Value": {
                 "id": "0a9fa7d0-de88-4855-b3dd-eb5578eac9f8",
@@ -466,7 +474,7 @@
             "Key": "7c443475-012a-449d-8646-e40a624dab4c",
             "Value": {
                 "id": "e10b7d32-9d5e-4858-9d9b-499cb363c99a",
-                "resourcePath": "scripts\\wallAt\\wallAt.yy",
+                "resourcePath": "scripts\\isWallAtRight\\isWallAtRight.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -607,6 +615,14 @@
             }
         },
         {
+            "Key": "a083b776-279e-4338-bfdd-486e3c05fe7e",
+            "Value": {
+                "id": "1eed6519-40a6-4fdb-96df-40345ef603fb",
+                "resourcePath": "scripts\\isLedgeAtRight\\isLedgeAtRight.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "41114cd3-d09c-44d5-b949-9f66d149218e",
@@ -707,6 +723,14 @@
             "Value": {
                 "id": "658a201f-60ce-4dc7-a3b0-299ebe3398ca",
                 "resourcePath": "scripts\\getCameraWidth\\getCameraWidth.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c72ed0c4-402a-4d39-a368-b6bc9915250c",
+            "Value": {
+                "id": "0f1c3267-8994-4908-b8e1-9e95cecd91d0",
+                "resourcePath": "scripts\\isLedgeAtLeft\\isLedgeAtLeft.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1029,7 +1053,10 @@
         "30230ceb-54b6-48a5-aef4-100332254750",
         "ccd2bbf8-8b53-4875-843f-aefe16efce99",
         "e966bbd0-27c2-454b-ac88-5b921251cc22",
-        "7c443475-012a-449d-8646-e40a624dab4c"
+        "7c443475-012a-449d-8646-e40a624dab4c",
+        "39c3b575-b92f-41f5-a1af-d6dc0d682756",
+        "a083b776-279e-4338-bfdd-486e3c05fe7e",
+        "c72ed0c4-402a-4d39-a368-b6bc9915250c"
     ],
     "tutorial": ""
 }

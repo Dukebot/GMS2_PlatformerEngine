@@ -1,18 +1,12 @@
 /// @description State machine
 if (state == enemy.moving) {
 	if (speedX > 0) {
-		var wallAtRight = place_meeting(x+1, y, oSolid);
-		var ledgeAtRight = not position_meeting(bbox_right + 1, bbox_bottom + 1, oSolid);
-		
-		if (wallAtRight or ledgeAtRight) {
+		if (isWallAtRight(oSolid) or isLedgeAtRight(oSolid)) {
 			speedX *= -1;
 		}
 	}
-	else if (speedX < 0) {
-		var wallAtLeft = place_meeting(x-1, y, oSolid);
-		var ledgeAtLeft = not position_meeting(bbox_left - 1, bbox_bottom + 1, oSolid);
-		
-		if (wallAtLeft or ledgeAtLeft) {
+	else if (speedX < 0) {		
+		if (isWallAtLeft(oSolid) or isLedgeAtLeft(oSolid)) {
 			speedX *= -1;
 		}
 	}
@@ -21,7 +15,7 @@ if (state == enemy.moving) {
 }
 else if (state == enemy.hurt) {
 	//Change direction as we fly around
-	if (speedX != 0) image_xscale = sign(speedX);	
+	if (speedX != 0) image_xscale = sign(speedX);
 	
 	if (not isOnGround(oSolid)) { 
 		speedY += gravityAcceleration;	
