@@ -11,17 +11,20 @@ if (state == enemy.idle) {
 	}
 }
 else if (state == enemy.chase) {
+	sprite_index = sBatFly;
+	
 	if (instance_exists(oPlayer)) {
 		var dir = point_direction(x, y, oPlayer.x, oPlayer.y);
-			
+		
+		var _speedX = speedX;
+		var _speedY = speedY;
+		
 		speedX = lengthdir_x(maxSpeed, dir);
 		speedY = lengthdir_y(maxSpeed, dir);
-			
-		sprite_index = sBatFly;
-			
-		if (speedX != 0) {
-			image_xscale = sign(speedX);	
-		}
+		if (speedX != 0) image_xscale = sign(speedX);	
+		
+		if (_speedX == 0) speedY = sign(speedY) * maxSpeed;
+		if (_speedY == 0) speedX = sign(speedX) * maxSpeed;
 			
 		move(oSolid);
 	}
