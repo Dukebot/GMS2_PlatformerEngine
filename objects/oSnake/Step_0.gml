@@ -4,16 +4,15 @@ if (state == enemy.moving) {
 		if (isWallAtRight(oSolid) or isLedgeAtRight(oSolid)) {
 			speedX *= -1;
 		}
-	}
-	else if (speedX < 0) {		
+	} else if (speedX < 0) {		
 		if (isWallAtLeft(oSolid) or isLedgeAtLeft(oSolid)) {
 			speedX *= -1;
 		}
 	}
 	image_xscale = speedX;
 	x += speedX;
-}
-else if (state == enemy.hurt) {
+	
+} else if (state == enemy.hurt) {
 	//Change direction as we fly around
 	if (speedX != 0) image_xscale = sign(speedX);
 	

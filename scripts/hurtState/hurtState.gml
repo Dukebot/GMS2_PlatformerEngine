@@ -5,18 +5,18 @@ if (speedX != 0) {
 	image_xscale = sign(speedX);	
 }
 
-if (not place_meeting(x, y+1, oSolid)) {
+if (not isOnGround(oSolid)) {
 	speedY += gravityAcceleration;	
 } else {
 	speedY = 0;
 	applyFriction(acceleration);
 }
-directionMoveBounce(oSolid); 
+directionMoveBounce(oSolid);
 
 //Here can be an infinite loop with lava where we never exit the hurt state
 
 //Change back to other states
-if (speedX == 0 and speedY == 0) {
+if (isNotMoving(speedX, speedY)) { 
 	
 	//1 second of invincibility when hurt state ends
 	godModeTimer = 60;

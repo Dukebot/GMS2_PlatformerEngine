@@ -15,7 +15,7 @@ if (state == enemy.idle) {
 else if (state == enemy.jump) {
 	image_index = image_number - 1;
 		
-	if (not place_meeting(x, y+1, oSolid)) {
+	if (not isOnGround(oSolid)) {
 		speedY += gravityAcceleration;	
 	} else {
 		speedY = 0;
@@ -23,7 +23,6 @@ else if (state == enemy.jump) {
 			
 		if (speedX == 0 and speedY == 0) {
 			state = enemy.idle;
-			
 			alarm[0] = 15;
 			image_speed = 0;
 			image_index = 0;
