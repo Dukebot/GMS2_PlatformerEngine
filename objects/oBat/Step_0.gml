@@ -15,7 +15,6 @@ else if (state == enemy.chase) {
 	
 	if (instance_exists(oPlayer)) {
 		var dir = point_direction(x, y, oPlayer.x, oPlayer.y);
-		
 		var _speedX = speedX;
 		var _speedY = speedY;
 		
@@ -25,6 +24,12 @@ else if (state == enemy.chase) {
 		
 		if (_speedX == 0) speedY = sign(speedY) * maxSpeed;
 		if (_speedY == 0) speedX = sign(speedX) * maxSpeed;
+		
+		if (isNotMoving(_speedX, _speedY)) {
+			if (isOnGround(oSolid) and isWallAtLeft(oSolid)) {
+				speedY *= -1;
+			}
+		}
 			
 		move(oSolid);
 	}
