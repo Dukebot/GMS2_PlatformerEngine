@@ -6,4 +6,5 @@ speedY = 0;
 
 hp = 3;
 
+previousState = 0;
 state = enemy.moving;

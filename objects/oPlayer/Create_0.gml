@@ -14,7 +14,7 @@ speedX = 0;
 speedY = 0;
 
 //Increase accel to remove the BUG
-acceleration = 0.1;
+acceleration = 0.25;
 gravityAcceleration = global.Gravity;
 
 jumpHeight = -8;
@@ -31,5 +31,19 @@ enum player {
 	hurt,
 	death
 }
+
+statesArray[player.moving] = moveState;
+statesArray[player.ledgeGrab] = ledgeGrabState;
+statesArray[player.attack] = attackState;
+statesArray[player.door] = doorState;
+statesArray[player.hurt] = hurtState;
+statesArray[player.death] = deathState;
+
+/*spritesArray[player.moving] = moveState;
+spritesArray[player.ledgeGrab] = ledgeGrabState;
+spritesArray[player.attack] = attackState;
+spritesArray[player.door] = doorState;
+spritesArray[player.hurt] = hurtState;
+spritesArray[player.death] = deathState;*/
 
 state = player.moving;

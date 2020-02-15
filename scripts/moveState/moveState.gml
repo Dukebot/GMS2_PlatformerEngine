@@ -35,6 +35,13 @@ if (place_meeting(x, y + speedY + 1, oSolid) and speedY > 0) {
 	audio_play_sound(aStep, 6, false);
 }
 
+if (spacePressed) {
+	instance_create_layer(x+32*image_xscale, y, "Instances", oPlayerAttackHitBox);
+}
+if (enterPressed) {
+	instanceCreate(oPlayerShoot, x, y);
+}
+
 if (checkForLedgeGrabState()) {
 	ledgeGrabStateTransition();
 }

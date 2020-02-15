@@ -1,5 +1,7 @@
 /// @description State machine
 if (state == enemy.moving) {
+	if (previousState != state) previousState = state;
+	
 	if (speedX > 0) {
 		if (isWallAtRight(oSolid) or isLedgeAtRight(oSolid)) {
 			speedX *= -1;

@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "5c2bb224-8c46-485e-a98e-682ff7944f02",
+            "Value": {
+                "id": "029e19bb-c4ac-4248-bf72-a34c6a21b824",
+                "resourcePath": "scripts\\takeDamageV2\\takeDamageV2.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5cb3bbc4-8031-46a6-9980-93bf0a3d5c0a",
             "Value": {
                 "id": "7f14e8a4-3595-4bc4-8137-1d8e1f52071b",
@@ -1052,6 +1060,7 @@
         "1e5c84ec-0a97-4496-a844-617fcbe9a89e",
         "a7e36d38-81ec-483b-8f90-0ab2b52ffb70",
         "f0ab0664-ce28-4880-a3f6-d7e29b4981f7",
+        "5c2bb224-8c46-485e-a98e-682ff7944f02",
         "9005f352-0a6c-4a97-9b36-3b5d6efd34ed",
         "e48e3c79-1c11-4c88-8efb-20878fe165f9",
         "6a7074f2-0861-4d32-ba81-a1ad6b7b8a72",

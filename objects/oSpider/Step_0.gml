@@ -11,6 +11,9 @@ if (state == enemy.idle) {
 			}
 		}
 	}
+	
+	speedY += gravityAcceleration;
+	move(oSolid);
 }
 else if (state == enemy.jump) {
 	image_index = image_number - 1;
